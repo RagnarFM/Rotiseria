@@ -1,0 +1,24 @@
+
+.header__princ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: url(../imagenes/header/back.jpg);
+    background-size: cover;
+}
+.header__princ img{
+    display: flex;
+    height: 45vh;
+}
+.header__subt{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 20vh;
+    font-size: 30px;
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    color: white;
+    background-color: #720000;
+}

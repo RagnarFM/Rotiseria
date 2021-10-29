@@ -1,0 +1,38 @@
+.section__quienes{
+    margin: 40px 10%;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 100px;
+}
+.section__quienes img{
+    width: 38vw;
+}
+.section__quienes-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+.section__relleno{
+    display: flex;
+    height: 66vh;
+    background-color: #003b08;
+    margin-bottom: 0;
+    
+}
+
+.section__relleno img{
+    display: flex;
+    margin-top: 50px;
+    width: 40vw;
+}
+.section__relleno-text{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 15px;
+}

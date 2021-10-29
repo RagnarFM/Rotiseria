@@ -1,0 +1,91 @@
+@media screen and (max-width: 900px){
+    .section__quienes{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        gap: 0;
+    }
+    .section__quienes img{
+        width: 80vw;
+        display: block;
+        font-size: 0;
+    }
+    .section__relleno img{
+        display: block;
+        margin: auto;
+        padding-top: 0;
+        margin-top: 0;
+        width: 40vw;
+    }
+    .section__relleno{
+        
+        display: flex;
+        height: 70vh;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    } 
+
+    .header__princ{
+        height: 50vh;
+    }
+    .header__subt{
+    font-size: 15px;
+    }
+
+    .slogan{
+        font-size: 15px;      
+    }
+   .slogan h1{
+    padding-right: 0;
+   }
+}
+@media screen and (max-width: 650px){
+    .header__subt{
+        font-size: 15px;
+        }
+    .section__quienes img{
+        width: 40vh;
+    }
+    .contact{
+        flex-direction: row;
+        height: 30vh;
+        
+    }
+    .contact p{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .msj{
+        font-size: 20px;
+        display: block;
+        margin: auto;
+        margin-top: 0;
+        
+    }
+}
+@media screen and (max-width: 450px){
+    .slogan{
+        font-size: 10px;      
+    }
+    .header__subt{
+        font-size: 10px;
+        }
+    .section__relleno{
+        height: 60vh;
+    }
+    .section__relleno img{
+        width: 60vw;
+    }
+}
+@media screen and (max-width: 420px){
+    
+    .section__relleno{
+        height: 70vh;
+    }
+    .section__relleno img{
+        width: 60vw;
+    }
+}
+
+
